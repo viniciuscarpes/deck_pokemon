@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #071326;
+}
+
+.head {
+    background-color: #172554;
+    padding: 10px;
+}
+
+.pokebola {
+    height: 50px;
+}
+
+.img1 {
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.img2 {
+    height: 50px;
+}
+
+
+.img img {
+    width: 220px;
+    border-radius: 5px;
+}
+
+.basic {
+    font-size: 15px;
+}
+
+.nome {
+    font-size: 15px;
+}
+
+.hp {
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.hp img {
+    height: 15px;
+}
+
+.ps {
+    font-size: 10px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.card {
+background: linear-gradient(
+    120deg,
+    #A80000 0%,
+    #FF7043 20%,
+    #FFB347 45%,
+    #A80000 65%,
+    #FF7043 85%,
+    #FFB347 100%
+);
+    width: 220px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #FFD84D;
+    padding: 5px;
+}
+
+.dack {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.titulo h3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
+
+.basic {
+    background-color: rgba(128, 128, 128, 0.411);
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 5px 1px 5px;
+    width: 90px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+
+.basic2 {
+    background-color: rgba(255, 17, 0, 0.404);
+    border: 0.1px solid rgba(0, 0, 0, 0.623);
+    border-radius: 2px;
+    padding: 1px;
+    padding-top: 3px;
+    width: 80px;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.nome {
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.tag {
+    flex-wrap: wrap;
+}
+
+.titulo-poder1 {
+    display: flex;
+    gap: 2px;
+    align-items: baseline;
+    margin-top: 5px;
+}
+
+.titulo2 {
+    font-size: 13px;
+    color: #300000;
+    font-weight: 900;
+}
+
+.p {
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.img3 {
+    height: 12px;
+}
+
+.energia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.energias {
+    display: flex;
+    gap: 2px;
+}
+
+.titulo-energia {
+    font-size: 13px;
+}
+
+.hp2 {
+    font-size: 13px;
+}
+
+.text-energia {
+    font-size: 11px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+.img3 {
+    height: 12px;
+}
+
+.fraquesa-div {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.fraquesa-div2 {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+}
+
