@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #071326;
+}
+
+.head {
+    background-color: #172554;
+    padding: 10px;
+}
+
+.pokebola {
+    height: 50px;
+}
+
+.img1 {
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.img2 {
+    height: 50px;
+}
+
+
+.img img {
+    width: 235px;
+    border-radius: 5px;
+}
+
+.basic {
+    font-size: 15px;
+}
+
+.nome {
+    font-size: 15px;
+}
+
+.hp {
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.hp img {
+    height: 15px;
+}
+
+.ps {
+    font-size: 10px;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.card {
+background: linear-gradient(
+    120deg,
+    #A80000 0%,
+    #FF7043 20%,
+    #FFB347 45%,
+    #A80000 65%,
+    #FF7043 85%,
+    #FFB347 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #FFD84D;
+    padding: 5px;
+}
+
+.card2 {
+background: linear-gradient(
+    120deg,
+    #944e8d 0%,
+    #EDB1CD 20%,
+    #BB81AB 45%,
+    #bb6095 65%,
+    #DB9AC0 85%,
+    #DB9AC0 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #909296;
+    padding: 5px;
+}
+
+.card3 {
+background: linear-gradient(
+    120deg,
+    #EBAF00 0%,
+    #FFEB65 20%,
+    #ffe46b 45%,
+    #F5C400 65%,
+    #ffd781 85%,
+    #FFB347 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #796027;
+    padding: 5px;
+}
+
+.card4 {
+background: linear-gradient(
+    120deg,
+    #033635 0%,
+    #063F43 20%,
+    #075B59 45%,
+    #032e31 65%,
+    #075B59 85%,
+    #063F43 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #838383;
+    padding: 5px;
+}
+
+.card5 {
+background: linear-gradient(
+    120deg,
+    #D87D32 0%,
+    #ffa053 20%,
+    #ff7300 45%,
+    #ad4e00 65%,
+    #D87D32 85%,
+    #ffa154 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #ffb74a;
+    padding: 5px;
+}
+
+.card6 {
+background: linear-gradient(
+    120deg,
+    #6BA9DF 0%,
+    #0088ff 20%,
+    #1d64a3 45%,
+    #00417a 65%,
+    #6BA9DF 85%,
+    #95ceff 100%
+);
+    width: 235px;
+    height: 320px;
+    border-radius: 10px;
+    border: 10px solid #ffb74a;
+    padding: 5px;
+}
+
+.dack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.titulo h3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+}
+
+.basic {
+    background-color: rgba(128, 128, 128, 0.411);
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1px 5px 1px 5px;
+    width: 90px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+
+.basic2 {
+    background-color: rgba(255, 17, 0, 0.747);
+    border: 0.1px solid rgb(78, 78, 78);
+    border-radius: 8px;
+    padding: 1px;
+    padding-top: 3px;
+    width: 80px;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.nome {
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.tag {
+    flex-wrap: wrap;
+}
+
+.titulo-poder1 {
+    display: flex;
+    gap: 2px;
+    align-items: baseline;
+    margin-top: 5px;
+}
+
+.titulo2 {
+    font-size: 12px;
+    color: #300000;
+    font-weight: 900;
+}
+
+.p {
+    font-size: 11px;
+    margin-top: 2px;
+}
+
+.img3 {
+    height: 12px;
+}
+
+.energia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 5px;
+}
+
+.energia2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.amp {
+    font-size: 10px;
+    text-align: center;
+}
+
+.energias {
+    display: flex;
+    gap: 2px;
+}
+
+.titulo-energia {
+    font-size: 13px;
+}
+
+.hp2 {
+    font-size: 13px;
+}
+
+.poder21 {
+    margin-bottom: 41px;
+}
+
+.text-energia {
+    font-size: 11px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    background-color: rgba(143, 143, 143, 0.685);
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 8px;
+    
+}
+
+.img3 {
+    height: 12px;
+}
+
+.fraquesa-div {
+    display: flex;
+    font-size: 11px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.recuo {
+    font-size: 11px;
+}
+
+.frauquesas {
+    display: flex;
+    gap: 2px;
+}
+
+.img4 {
+    height: 12px;
+}
+
+.recua {
+    display: flex;
+    gap: 5px;
+}
+
+.numero {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.poder21 {
+    margin-bottom: 42px;
+    margin-top: 10px;
+}
+
+.foo {
+    background-color: #172554;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.foo p {
+    font-size: 16px;
+    color: #6BA9DF;
+    font-family: monospace;
+    font-weight: 900;
+}
